@@ -1,14 +1,52 @@
-<head>{
-background-color:#0000;
-}
+
 
 body{
 background-color:#ececec;
 }
 
-<footer>{
-background-color:#0000;
+header{
+  color:black;
+  background-color:white;
+  background-image: url(https://addons.opera.com/media/CACHE/images/themes/35/94135/1.0-rev1/images/0f713e40-058b-409d-a79e-406145949410/cf09fa3c903e0579828148f7c0ee0aae.jpg);
+
+;vertical-align:top;text-align:center;
 }
-h1 {
-  text-align: center;
+body {
+color:black;
+background-color:#eee 100%;
+background-image:url(images/image_de_fond.png);
+border-width:2px;
+border-style:solid;
+border-color:black;
+}
+nav{
+  text-align: right;background-color:#333333;height: 100;align-content: flex-start;padding:inherit;
+  background-color:white;
+  background-size: cover;
+  background-image: url(https://addons.opera.com/media/CACHE/images/themes/35/94135/1.0-rev1/images/0f713e40-058b-409d-a79e-406145949410/cf09fa3c903e0579828148f7c0ee0aae.jpg);
+  border-width:2px;
+ border-style:solid;
+ border-color:black;
   }
+
+
+h1 {
+    text-align: center;height: 100;color: #FFFFFF
+
+}
+h2 {
+    text-align: left;
+    border-width:1px;
+   border-style:solid;
+   border-color:black;
+   padding: 7px 7px;
+}
+footer
+{
+  text-align: left;
+  border-width:1px;
+ border-style:solid;
+ border-color:black;
+ color:black;
+
+}
