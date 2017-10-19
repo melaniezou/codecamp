@@ -1,10 +1,13 @@
 
 
-body{
-  color:black;
-  background-color: #d8d8d8
-  background-image: url(https://addons.opera.com/media/CACHE/images/themes/35/94135/1.0-rev1/images/0f713e40-058b-409d-a79e-406145949410/cf09fa3c903e0579828148f7c0ee0aae.jpg);
+body {
+color:white;
+background-color:#282828;
+margin:0;
+}
 
+ol{font-family: 'Michroma', sans-serif;
+font-size: 10;
 }
 
 header{
@@ -17,7 +20,6 @@ header{
 }
 h1 {font-family: 'Michroma', sans-serif;
     text-align: center;height: 100;color: #d8d8d8
-
 }
 h2{
   font-family: 'Michroma', sans-serif;
@@ -28,16 +30,23 @@ h2{
    border-width: 1px;
    padding: 7px 7px;
 }
+h3 {
+font-family: 'Michroma', sans-serif;
+}
 
-
-
-body {
-color:black;
-background-color:#d8d8d8 100%;
-background-image:url(images/image_de_fond.png);
-border-width:2px;
-border-style:solid;
-border-color:black;
+.rating a {
+   float: right;
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+   cursor: pointer;
 }
 
 
