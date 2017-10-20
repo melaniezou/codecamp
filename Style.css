@@ -65,7 +65,7 @@ h2{
 .rating a:focus,
 .rating a:hover ~ a,
 .rating a:focus ~ a {
-   color: orange;
+   color: yellow;
    cursor: pointer;
 }
 
