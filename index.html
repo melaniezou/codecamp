@@ -1,83 +1,41 @@
-<! DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <link rel="stylesheet" href="style.css">
-<img src="https://mediaesdes.files.wordpress.com/2015/12/logo-musique.png" alt="Logo de mon site">
-</img>
-  <title>Stream me up</title>
-  <meta charset="utf-8">
-  <h1>Stream me Up</h1>
-</head>
-<body>
-  <div id="page"> </div>
-</body>
-<section>
-  <h1> Derniers titres en vogue en France </h1>
+  <head>
+    <link rel="stylesheet" href="style.css"> <!-- Lien avec les feuilles de style
+    --> <link rel="stylesheet" href="Style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+    <!-- Lien avec une police externe-->
+    <title>Stream me up</title>
+    <meta charset="utf-8"> <!-- Permet la lecture par le navugateur des caractères spéciaux-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Ajout d'APIs pour intégrer la bdd musique et une barre de recherche -->
 
-  <ul class="list-track js-homepage-charts-list" style>
-<li class="track js-trackrow-trackrow">
+    <script src="script.js"></script> <!-- Lien notre fichier javascript-->
+  </head>
 
-  <img src="https://static.fnac-static.com/multimedia/Images/FR/NR/4a/d7/89/9033546/1508-1/tsp20170915122501/Mwaka-moon.jpg">
-<form>
-  <input type="button"  value="Lire">
-</form>
-  <a href="http://www.deezer.com/track/416053412?utm_source=deezer&utm_content=track-416053412&utm_term=13129956_1508160036&utm_medium=web" class="link-wrap js-trackrow-trackrow-link">
+  <body>
 
+    <header>
 
+    <img
+    src="https://icon-icons.com/icons2/1106/PNG/512/1485972218-musicsocialnetworkbrandlogo_78992.png" height="200" width="200" alt="Logo de mon site">
+    </img>
+    <h1>Stream me Up</h1>
 
+  <nav>
+        <input type="search" id="barre" placeholder="#genre" > <!-- Champ de recherche-->
+        <button type="search" id="search" name="loupe"> <!-- Loupe-->
+        <img src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png" height="15" width="15"alt="search">
+        </button>
+  </nav>
 
-    <div>
-
-			<div class="track_information">
-
-
-			  <span class="track_information_title">
-
-
-				Mwaka moon
-			  </span>
-			  <br>
-			  <span class="track_information_artist">
-				Kalash, Damso
-			  </span>
-
-			</div>
-
-		</div>
-  </ul>
-
+      <h2>Derniers titres en vogue en France</h2>
     </header>
-    <ul class="list-track js-homepage-charts-list" style>
-  <li class="track js-trackrow-trackrow">
 
-    <img src="https://static.fnac-static.com/multimedia/Images/FR/NR/4a/d7/89/9033546/1508-1/tsp20170915122501/Mwaka-moon.jpg">
-  <form>
-    <input type="button"  value="Lire">
-  </form>
-    <a href="http://www.deezer.com/track/416053412?utm_source=deezer&utm_content=track-416053412&utm_term=13129956_1508160036&utm_medium=web" class="link-wrap js-trackrow-trackrow-link">
+      <ol id="musiques"> <!-- Listing des musiques dans Airtable-->
+      </ol>
 
 
+    <footer> Copyright &copy; - AL_MZ - ESD Code Camp 2017 </footer>
 
-
-      <div>
-
-  			<div class="track_information">
-
-
-  			  <span class="track_information_title">
-
-
-  				Mwaka moon
-  			  </span>
-  			  <br>
-  			  <span class="track_information_artist">
-  				Kalash, Damso
-  			  </span>
-
-  			</div>
-
-  		</div>
-    </ul>
-
-      </header>
-</section>
+</html>

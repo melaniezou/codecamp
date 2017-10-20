@@ -21,6 +21,12 @@ header{
 h1 {font-family: 'Michroma', sans-serif;
     text-align: center;height: 100;color: #d8d8d8
 }
+
+div.test2 {
+text-align: center;
+padding-top: 15px;
+}
+
 h2{
   font-family: 'Michroma', sans-serif;
   text-align: left;
@@ -29,9 +35,6 @@ h2{
    border-style: solid;
    border-width: 1px;
    padding: 7px 7px;
-}
-h3 {
-font-family: 'Michroma', sans-serif;
 }
 
 .rating a {
@@ -49,7 +52,20 @@ font-family: 'Michroma', sans-serif;
    cursor: pointer;
 }
 
+#musiques li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
 
+.title-musique {
+  width: 20%;
+}
+
+#musiques iframe {
+  height: 100px;
+}
 footer {
   font-family: 'Michroma', sans-serif;
 text-align: center;
